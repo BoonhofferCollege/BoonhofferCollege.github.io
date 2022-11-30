@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    color: black;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  /*van: https://www.w3schools.com/css/css_link.asp dit zorgt ervoor dat de underline weg gaat*/
+
+header{
+    border-bottom:solid rgb(0, 0, 0) 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+    } 
+    
+    .blok {
+        color: white;
+        width: 1000px;
+        height: fit-content;
+        border: 3px solid black;
+        background-color: plum;
+        padding: 10px;   
+    }
+
+nav{
+    border-bottom:solid rgb(0, 0, 0) 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: plum;
+    word-spacing: 10px;
+
+}
+
+footer{
+
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: plum;
+    margin-top: 50px;
+    border-top: 3px solid black;
+
+}
+
+.paginas {
+
+margin-left:20px
+
+}
+
+.container {
+    
+    display:flex;
+    margin-left: auto; 
+    margin-right: 150px;
+
+}
+
+.searchbar{
+
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border:solid black 3px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.searchbar input{
+
+background:transparent;
+border:none;
+outline:0;
+font-size: 25px;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+::placeholder{
+    color:plum
+}
+
+.searchbar button img{
+
+    width:30px
+}
+.searchbar button{
+border:0;
+background:none;
+display:flex;
+align-items: center;
+
+}
+
+article {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.paginatitel{
+
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.hyperlink-roze{
+
+color:plum
+
+}
+
+.hyperlink-wit{
+
+    color:white
+    
+    }
